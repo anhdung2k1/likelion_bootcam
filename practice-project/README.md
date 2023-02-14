@@ -6,7 +6,7 @@
 1. *Add proper properties into application.properties configurating app*
 1. *Table will be initialized when app started*
 
-#*API*
+#*API*\n
 #*-POST: "/api/tutorials"*
 *Add new tutorial*
 ![createNewTutorial](https://user-images.githubusercontent.com/86148510/218700401-16d434e9-46bc-43a9-9c10-4aff1d2eafa8.png)
