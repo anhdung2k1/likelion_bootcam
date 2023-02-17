@@ -6,14 +6,9 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.core.annotation.Order;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.HttpStatusCode;
-import org.springframework.http.MediaType;
-import org.springframework.http.ProblemDetail;
 import org.springframework.stereotype.Component;
-import org.springframework.web.ErrorResponse;
 
 import java.io.IOException;
-import java.util.logging.LogRecord;
 
 /**
  * @author Anh Dung
