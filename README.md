@@ -3,8 +3,6 @@
 
 <h1 align="center">
   <br>
-  <a href="https://vietnix.vn/wp-content/uploads/2022/07/Spring-BOOT.webp"><img src="https://vietnix.vn/wp-content/uploads/2022/07/Spring-BOOT.webp" alt="Spring Boot" width="200"></a>
-  <br>
   Spring Boot Practice
   <br>
 </h1>
