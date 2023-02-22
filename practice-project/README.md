@@ -1,35 +1,42 @@
 #Practice Project
 ---
 ---
-##Prerequisites
+#*Prerequisites*
 1. *Dabasebase: Oracle 19c*
 1. *Add proper properties into application.properties configurating app*
 1. *Table will be initialized when app started*
 
-#API
-##-POST: "/api/tutorials"
+#*API* <br />
+#*-POST: "/api/tutorials"*
+<br />
 *Add new tutorial*
-
-
-##-GET: "/api/tutorials"
+![createNewTutorial](https://user-images.githubusercontent.com/86148510/218700401-16d434e9-46bc-43a9-9c10-4aff1d2eafa8.png)
+#*-GET: "/api/tutorials"*
+<br />
 *Get all tutorials*
-
-##-GET: "/api/tutorials/:id"
+![getAllTutorial](https://user-images.githubusercontent.com/86148510/218700448-c3d0bcbc-af2a-47ed-9150-47ab1cc5a3d4.png)
+#-GET: "/api/tutorials/:id"
+<br />
 *Get a tutorial detail by ID
-
-
-##-PUT: "/api/tutorials/:id"
+![getTutorialById](https://user-images.githubusercontent.com/86148510/218700505-ea189a08-4283-4d28-9c6c-5084c9a01c57.png)
+#*-PUT: "/api/tutorials/:id"*
+<br />
 *UPDATE tutorial detail by ID*
-
-##-DELETE: "/api/tutorials/:id"
+![putTutorial](https://user-images.githubusercontent.com/86148510/218700539-2cd3c21b-e22f-471a-a17e-8fb94a4d9183.png)
+#*-DELETE: "/api/tutorials/:id"*
+<br />
 *DELETE an specific tutorial by ID*
-
-##-DELETE: "/api/tutorials"
+![deleteTutorial](https://user-images.githubusercontent.com/86148510/218700586-ca6d005e-ebbb-41d0-9885-6f6acb5bf6dc.png)
+#*-DELETE: "/api/tutorials"*
+<br />
 *DELETE all tutorials*
-
-##-GET: "/api/tutorials/published"
+![beforeDeleteAllTutorials](https://user-images.githubusercontent.com/86148510/218700608-ea78e965-841c-48f2-96ee-e7a991d4e329.png)
+![afterDeleteAllTutorials](https://user-images.githubusercontent.com/86148510/218700631-32c9d12a-3393-4c6a-a458-1ad009880794.png)
+#*-GET: "/api/tutorials/published"*
+<br />
 *Get tutorials filtered by published*
-
-##-GET: "/api/tutorials?title=[keyword]"
+![getTutorialByPublished](https://user-images.githubusercontent.com/86148510/218700669-abe51086-c98a-4a90-a0b9-f3f715bce3ff.png)
+#-GET: "/api/tutorials?title=[keyword]"
+<br />
 *Get tutorials by the params*
-
+![getAllTutorialByTitle](https://user-images.githubusercontent.com/86148510/218700703-b2362b1c-8a46-46c0-9d03-9146fd6ed805.png)
