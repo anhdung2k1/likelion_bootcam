@@ -42,23 +42,29 @@
 ![image](https://user-images.githubusercontent.com/86148510/220666338-2329c3e0-f5dc-47ba-89ac-067f8be614f9.png)
 ---
 <a>Exercise 2: Actuator, Devtools</a>
+<br/>
 <h4>Navigate application.properties changes port managements and enable settings for endpoints</h4>
+<br/>
 ![image](https://user-images.githubusercontent.com/86148510/220667106-d2371ca0-dbe3-4d54-8a5a-d949f4794912.png)
+<br/>
 <a>Exercise 2-1: Actuator</a>
+<br/>
 <h4>Access endpoints</h4>
+<br/>
 ![image](https://user-images.githubusercontent.com/86148510/220667428-81a68427-c707-40d7-a492-840d14a7f64c.png)
+<br/>
 <h4>Health check</h4>
-
+<br/>
 ![image](https://user-images.githubusercontent.com/86148510/220667538-bd738d88-22cd-454d-aec0-777374d63a3f.png)
-
+<br/>
 <h4>Shut down application</h4>
+<br/>
 ![image](https://user-images.githubusercontent.com/86148510/220667790-eec1e419-7e31-4a31-ab27-2c8c94244e90.png)
 ![image](https://user-images.githubusercontent.com/86148510/220667870-05829743-b1c7-47b9-bb48-cfa3945fb229.png)
-
+<br/>
 <a>Exercise 2-2: Devtools</a>
+<br/>
 <h4>Change management port to 8091 while runtime application</h4>
-
-
-
+<br/>
 
 
