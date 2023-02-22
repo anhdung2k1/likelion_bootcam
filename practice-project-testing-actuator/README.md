@@ -45,9 +45,9 @@
 <a>Exercise 2: Actuator, Devtools</a>
 <br/>
 <h4>Navigate application.properties changes port managements and enable settings for endpoints</h4>
-<br/>
- ![1](https://user-images.githubusercontent.com/86148510/220673532-bc7dda48-47f2-4999-a603-33d61af24c60.png)
-
+<br>
+ ![image](https://user-images.githubusercontent.com/86148510/220673532-bc7dda48-47f2-4999-a603-33d61af24c60.png)
+<br>
 <a>Exercise 2-1: Actuator</a>
 <br/>
 <h4>Access endpoints</h4>
