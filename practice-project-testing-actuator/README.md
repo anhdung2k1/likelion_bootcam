@@ -46,7 +46,8 @@
 <br/>
 <h4>Navigate application.properties changes port managements and enable settings for endpoints</h4>
 <br>
- ![image](https://user-images.githubusercontent.com/86148510/220665584-1f9db789-27d2-4205-a6f4-3229baca864c.png)
+![image](https://user-images.githubusercontent.com/86148510/220676091-86300bc0-847c-420c-a9ee-5aee02c218f3.png)
+
 <br>
 <a>Exercise 2-1: Actuator</a>
 <br/>
