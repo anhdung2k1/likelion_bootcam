@@ -1,6 +1,5 @@
 <a>Practice Project</a>
 ---
----
 ##Prerequisites
 1. *Dabasebase: Oracle 19c*
 1. *Add proper properties into application.properties configurating app*
