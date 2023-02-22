@@ -60,11 +60,19 @@
 <h4>Shut down application</h4>
 <br/>
 ![image](https://user-images.githubusercontent.com/86148510/220667790-eec1e419-7e31-4a31-ab27-2c8c94244e90.png)
+<br/>
 ![image](https://user-images.githubusercontent.com/86148510/220667870-05829743-b1c7-47b9-bb48-cfa3945fb229.png)
 <br/>
 <a>Exercise 2-2: Devtools</a>
 <br/>
 <h4>Change management port to 8091 while runtime application</h4>
 <br/>
+![image](https://user-images.githubusercontent.com/86148510/220670220-c98c4338-f92e-4768-bec7-492a51cf418b.png)
+<h4>Access new port endpoints</h4>
+![image](https://user-images.githubusercontent.com/86148510/220670610-f2563176-ad77-4101-a5f9-766b7da537b7.png)
+<h4>Checking Health</h4>
+![image](https://user-images.githubusercontent.com/86148510/220670733-3b0cf469-7fa7-4eb8-ae17-da35e0d6618b.png)
+
+
 
 
