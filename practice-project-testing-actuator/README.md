@@ -27,8 +27,9 @@
 ## Results
 ---
 <a fontWeight="bold">All Test Case</a>
+<br>
 ![image](https://user-images.githubusercontent.com/86148510/220664679-926c21d4-b678-408d-8d7d-299d082c5603.png)
-
+<br>
 ---
 <a>Exercise 1-1: Repository Test Case</a>
 <br/>
