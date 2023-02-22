@@ -39,9 +39,9 @@
 <br/>
  ![image](https://user-images.githubusercontent.com/86148510/220666024-16a3e0f7-217d-4cc1-a79a-d08095bae451.png)
 <a>Exercise 1-3: Controller Test Case</a>
-<br/>
+<br>
  ![image](https://user-images.githubusercontent.com/86148510/220666338-2329c3e0-f5dc-47ba-89ac-067f8be614f9.png)
-<br/>
+<br>
 <a>Exercise 2: Actuator, Devtools</a>
 <br/>
 <h4>Navigate application.properties changes port managements and enable settings for endpoints</h4>
