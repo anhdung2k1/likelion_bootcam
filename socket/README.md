@@ -68,14 +68,15 @@ ENTRYPOINT ["java","-jar", "/app.jar"]
 ![img_4.png](img_4.png)
 
 <h3>Dynamic Topic</h3>
-- Create a configuration for AdminClient in case create a new topic
+Create a configuration for AdminClient in case create a new topic
+<br/>
+
 ```
 @Configuration
 public class KafkaDynamicTopic {
     @Value("${spring.kafka.bootstrap-servers}")
     private String bootstrapServers;
     private final Properties props = new Properties();
-
     @Bean
     public Properties DynamicTopicConfig(){
         props.put(AdminClientConfig.BOOTSTRAP_SERVERS_CONFIG, bootstrapServers);
@@ -113,7 +114,9 @@ public class KafkaDynamicTopic {
     }
 }
 ```
-- And configure a Kafka Listener when Producer Register a new Topic
+
+And configure a Kafka Listener when Producer Register a new Topic
+<br/>
 ```
 @Component
 public class KafkaListeners {
@@ -137,7 +140,8 @@ public class KafkaListeners {
     }
 }
 ```
-- Add the send message when the message was sent in Chat
+Add the send message when the message was sent in Chat
+
 ```
 @MessageMapping("/chat.sendMessage/{roomId}")
     @SendTo("/topic/{roomId}")
