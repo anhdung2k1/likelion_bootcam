@@ -143,7 +143,7 @@ public class KafkaListeners {
 Add the send message when the message was sent in Chat
 
 ```
-@MessageMapping("/chat.sendMessage/{roomId}")
+ @MessageMapping("/chat.sendMessage/{roomId}")
     @SendTo("/topic/{roomId}")
     public ChatMessage sendMessage(@Payload ChatMessage chatMessage
             , @DestinationVariable String roomId
@@ -155,4 +155,4 @@ Add the send message when the message was sent in Chat
     }
 ```
 - Logged out new topic
-![img_6.png](img_6.png)![img_5.png](img_5.png)
+![img_6](https://user-images.githubusercontent.com/86148510/223761657-a2c83e77-99ba-48df-972c-c3d1cac83ba6.png)
