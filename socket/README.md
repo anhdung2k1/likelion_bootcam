@@ -44,7 +44,7 @@ When start the docker-compose file
 - <h4>Capture message listener kafka when running</h4>
 <br/>
 ![img_2](https://user-images.githubusercontent.com/86148510/223770568-68bc45a1-5069-4f34-8574-56c5ce9922b4.png)
-- <h4>When a new user enter it remain the history the conversations in group</h4>
+<h4>When a new user enter it remain the history the conversations in group</h4>
 <br/>
 ![img_3](https://user-images.githubusercontent.com/86148510/223770649-19ffb9f5-46c4-4309-9cfd-07289a8a6534.png)
 <br/>
