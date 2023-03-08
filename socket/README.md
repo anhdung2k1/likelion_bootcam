@@ -151,4 +151,5 @@ public class KafkaListeners {
     }
 ```
 - Logged out new topic
-![img_5.png](img_5.png)
+
+![img_6](https://user-images.githubusercontent.com/86148510/223761657-a2c83e77-99ba-48df-972c-c3d1cac83ba6.png)
