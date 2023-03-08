@@ -4,6 +4,7 @@ import org.apache.kafka.clients.admin.AdminClient;
 import org.apache.kafka.clients.admin.AdminClientConfig;
 import org.apache.kafka.clients.admin.NewTopic;
 import org.apache.kafka.common.errors.TopicExistsException;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -16,7 +17,7 @@ import java.util.concurrent.ExecutionException;
 public class KafkaDynamicTopic {
     @Value("${spring.kafka.bootstrap-servers}")
     private String bootstrapServers;
-    private Properties props = new Properties();
+    private final Properties props = new Properties();
 
     @Bean
     public Properties DynamicTopicConfig(){

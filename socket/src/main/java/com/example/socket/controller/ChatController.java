@@ -31,7 +31,7 @@ public class ChatController {
     private RedisTemplate redisTemplate;
 
     @Autowired
-    private KafkaTemplate kafkaTemplate;
+    private KafkaTemplate<String,String> kafkaTemplate;
 
     @Autowired
     private SimpMessagingTemplate messagingTemplate;
@@ -46,6 +46,8 @@ public class ChatController {
     ) {
         redisTemplate.opsForList().rightPushAll(roomId, chatMessage);
         kafkaTemplate.send("notification", chatMessage.getContent());
+        kafkaTemplate.send("newTopicDynamic", chatMessage.getContent());
+        kafkaTemplate.send("testAnotherTopic", chatMessage.getContent());
         return chatMessage;
     }
     @MessageMapping("/chat.addUser/{roomId}")
