@@ -46,6 +46,7 @@ When start the docker-compose file
 - <h4>When a new user enter it remain the history the conversations in group</h4>
 ![img_3.png](img_3.png)
 - <h4>Create a docker file</h4>
+
 ```
 FROM openjdk:17-jdk-slim
 VOLUME /socket
