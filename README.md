@@ -26,5 +26,18 @@
 ```docker rmi <list_name_id>```
 13. Stop 1 hay nhiều container hoặc để kill 1 container<br/>
 ```docker stop <list_container_name_or_id>```
+#Docker compose
+14. Build Docker Compose
+```docker-compose up```
+15. Remove Docker Compose - Shut Down Docker Compose
+```docker-compose down -v```
+# Kafka Bitnami
+16. Check all topics: Navigate to kafka-topics.sh directory by
+```
+cd var
+cd opt
+kafka-topics.sh --list --bootstrap-server localhost:9092
+```
 # Tạo file build bỏ qua mọi test<br/>
 ```mvn clean package -DskipTests```
+
