@@ -2,7 +2,8 @@
 1. Build một image<br/>
 ```docker build -t <tên image> .```
 2. Chạy một image<br/>
-```docker run --name <tên container> -p -8080:8080 <tên image>```
+```docker run --name <tên container><br/>
+-p -8080:8080 <tên image>```
 -p 8080:8080: là mapping cổng 8080 của container với cổng 8080 của máy<br/>
 3. Tạo tag từ image<br/>
 ```docker tag <tên image> <account name>/<tên repository>:<tagname>```
