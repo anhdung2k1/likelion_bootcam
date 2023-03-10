@@ -5,33 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adddfa32-061e-4e09-83ab-aa2da6f90dcc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/microservices.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/configserver/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/configserver/src/main/java/com/likelion/configserver/ConfigServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/configserver/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/customer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/customer/src/main/java/org/example/customer/CustomerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/customer/src/main/java/org/example/customer/controller/CustomerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/customer/src/main/java/org/example/customer/controller/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/customer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/driver/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/driver/src/main/java/org/example/driver/DriverApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/driver/src/main/java/org/example/driver/controller/DriverController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/driver/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/gateway/src/main/java/com/likelion/gateway/GatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../socket/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../socket/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../socket/src/main/java/com/example/socket/controller/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../socket/src/main/java/com/example/socket/controller/ChatController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../socket/src/main/java/com/example/socket/utils/GsonRedisSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../socket/src/main/java/com/example/socket/utils/GsonRedisSerializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../socket/src/main/resources/static/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../socket/src/main/resources/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/customer/src/main/java/org/example/customer/controller/MessageRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/customer/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/configserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/configserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/configserver/src/main/java/com/likelion/configserver/ConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/configserver/src/main/java/com/likelion/configserver/ConfigServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/configserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/configserver/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/customer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/customer/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/customer/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-config-server/test-application.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +62,20 @@
       <recent name="D:\ShinhanDS Course\OracleExericse-Week2-5\microservices\my-app" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GatewayApplication">
+  <component name="RunManager" selected="Application.CustomerApplication">
+    <configuration name="ConfigServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.likelion.configserver.ConfigServerApplication" />
+      <module name="configserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.likelion.configserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CustomerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.customer.CustomerApplication" />
       <module name="customer" />
@@ -120,9 +117,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CustomerApplication" />
+        <item itemvalue="Application.ConfigServerApplication" />
         <item itemvalue="Application.GatewayApplication" />
         <item itemvalue="Application.DriverApplication" />
-        <item itemvalue="Application.CustomerApplication" />
       </list>
     </recent_temporary>
   </component>
