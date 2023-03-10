@@ -2,14 +2,17 @@
 
 <a href = "#websocket">Kafka Redis Docker Exercise</a>
 ---
+
 <a href="#environment">Set Up Environment</a>
 ---
+
 To use Redis and Kafka, we need to move on some configuration
 <br/>
     ```
     docker-compose up
     ```
 by using docker-compose.yml
+
  ```
     version: "3"
     services:
@@ -32,6 +35,7 @@ by using docker-compose.yml
     depends_on:
     - zookeeper
  ```
+
 When start the docker-compose file
 ![img.png](img.png)
 ![img_1.png](img_1.png)
@@ -40,11 +44,15 @@ When start the docker-compose file
     <h2>Project Overview</h2>
 </a>
 ---
+
 <h3>Demo Application</h3>
 <h4>Capture message listener kafka when running</h4>
-
+<br/>
+![img_2](https://user-images.githubusercontent.com/86148510/223770568-68bc45a1-5069-4f34-8574-56c5ce9922b4.png)
 <h4>When a new user enter it remain the history the conversations in group</h4>
-
+<br/>
+![img_3](https://user-images.githubusercontent.com/86148510/223770649-19ffb9f5-46c4-4309-9cfd-07289a8a6534.png)
+<br/>
 <h4>Create a docker file</h4>
 
 ```
@@ -55,17 +63,20 @@ ARG JAR_FILE=target/socket-0.0.1-SNAPSHOT.jar
 COPY ${JAR_FILE} app.jar
 ENTRYPOINT ["java","-jar", "/app.jar"]
 ```
+
 - run ```mvn clean package``` to build JAR file
 - run ```docker build -t socket .``` to build image Docker
 - run ```docker image ls``` to check the newest built image
 - run ```docker run --name socket -p 8080:8080 socket``` to create socket container and run the image
 
 - In this case, I use bitnami/kafka so the code check the topic in kafka
+
 ```
   cd var
   cd opt
   kafka-topics.sh --list --bootstrap-server localhost:9092
 ```
+
 ![img_4.png](img_4.png)
 
 <h3>Dynamic Topic</h3>
@@ -118,6 +129,7 @@ public class KafkaDynamicTopic {
 
 And configure a Kafka Listener when Producer Register a new Topic
 <br/>
+
 ```
 @Component
 public class KafkaListeners {
@@ -141,6 +153,7 @@ public class KafkaListeners {
     }
 }
 ```
+
 Add the send message when the message was sent in Chat
 
 ```
@@ -155,5 +168,6 @@ Add the send message when the message was sent in Chat
         return chatMessage;
     }
 ```
+
 - Logged out new topic
 ![img_6](https://user-images.githubusercontent.com/86148510/223761657-a2c83e77-99ba-48df-972c-c3d1cac83ba6.png)
