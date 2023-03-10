@@ -41,3 +41,8 @@ kafka-topics.sh --list --bootstrap-server localhost:9092
 # Tạo file build bỏ qua mọi test<br/>
 ```mvn clean package -DskipTests```
 
+#Microservices
+1. Tạo 1 project chứa
+```mvn archetype:generate -DgroupId=com.likelion -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false```
+
+
