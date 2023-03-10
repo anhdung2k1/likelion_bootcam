@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 @RestController
-@RequestMapping("api/v1/customer")
+@RequestMapping("/api/v1/customer")
 public class CustomerController {
     @Autowired
     private RestTemplate restTemplate;

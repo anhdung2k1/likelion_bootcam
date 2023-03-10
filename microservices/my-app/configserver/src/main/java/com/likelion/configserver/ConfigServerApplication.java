@@ -1,7 +1,11 @@
-package com.likelion;
+package com.likelion.configserver;
 
-public class Main {
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ConfigServerApplication {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        SpringApplication.run(ConfigServerApplication.class,args);
     }
 }

@@ -5,9 +5,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("api/v1/driver")
+@RequestMapping("/api/v1/driver")
 public class DriverController {
-    @GetMapping("taxi")
+    @GetMapping("/taxi")
     public String getTaxi(){
         return "You found a taxi, the taxi is comming!";
     }

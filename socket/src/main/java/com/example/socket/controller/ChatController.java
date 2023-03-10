@@ -21,6 +21,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.List;
+import java.util.Objects;
 import java.util.Random;
 
 @Controller
@@ -28,7 +29,7 @@ import java.util.Random;
 public class ChatController {
 
     @Autowired
-    private RedisTemplate redisTemplate;
+    private RedisTemplate<String, ChatMessage> redisTemplate;
 
     @Autowired
     private KafkaTemplate<String,String> kafkaTemplate;
@@ -57,8 +58,7 @@ public class ChatController {
             , @DestinationVariable String roomId
     ) {
         messagingTemplate.convertAndSend("/topic/" + roomId, chatMessage);
-        List<ChatMessage> chatHistory = redisTemplate.opsForList().range(roomId, 0, -1);
-        return chatHistory;
+        return redisTemplate.opsForList().range(roomId, 0, -1);
     }
 
     @GetMapping("/")
@@ -104,7 +104,7 @@ public class ChatController {
         Cache cache = cacheManager.getCache("testCache");
         Cache.ValueWrapper valueWrapper = cache.get(roomId);
         if (valueWrapper != null) {
-            return valueWrapper.get().toString();
+            return Objects.requireNonNull(valueWrapper.get()).toString();
         }
         return null;
     }
