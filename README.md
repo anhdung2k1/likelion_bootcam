@@ -31,6 +31,12 @@
 ```docker-compose up```
 15. Remove Docker Compose - Shut Down Docker Compose
 ```docker-compose down -v```
+# Config Dockerfile
+	-- FROM <base_image>:<phiên bản>: Câu lệnh bắt buộc phải có
+	-- RUN <Câu_lệnh>: Chạy 1 command cho việc cài đặt các công cuộc cần thiết cho Image
+	-- ENV <tên_biến>: định nghĩa biến môi trường trong Container
+	-- ENTRYPOINT <câu_lệnh>: định nghĩa những command mặc định, cái mà sẽ được chạy khi container running
+	-- VOLUME <tên_thư_mục>: dùng để truy cập hoặc liên kết một thư mục nào trong Container
 # Kafka Bitnami
 16. Check all topics: Navigate to kafka-topics.sh directory by
 ```
@@ -41,7 +47,7 @@ kafka-topics.sh --list --bootstrap-server localhost:9092
 # Tạo file build bỏ qua mọi test<br/>
 ```mvn clean package -DskipTests```
 
-#Microservices
+# Microservices
 1. Tạo 1 project chứa <br/>
 ```mvn archetype:generate -DgroupId=com.likelion -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false```
 
