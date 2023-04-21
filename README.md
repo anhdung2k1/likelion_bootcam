@@ -51,4 +51,10 @@ kafka-topics.sh --list --bootstrap-server localhost:9092
 1. Tạo 1 project chứa <br/>
 ```mvn archetype:generate -DgroupId=com.likelion -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false```
 
+# Docker Runner -- Linux
+```docker run -d --name gitlab-runner --restart always \
+  -v /srv/gitlab-runner/config:/etc/gitlab-runner \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  gitlab/gitlab-runner:latest
+```
 
