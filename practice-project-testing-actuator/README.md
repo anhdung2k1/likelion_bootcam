@@ -68,16 +68,6 @@
 - If it is successfully checked, the <strong>Gateway</strong> will allow the requests go to service modules and return <strong>HTTP Successful State Code(200)</strong>
 - Else, it is will throw Exception and return <strong>HTTP Error Status Code (403)</strong>
 ---
-<a href = "#Kafka Architecture">Kafka Architecture</a>
----
-![Kafka Architecture](https://user-images.githubusercontent.com/86148510/224912248-0fa3b5c9-0ac4-4503-8953-fa21babe8708.png)
-<a href = "#Partition Store Topics">Partition Stored Topics</a>
----
-![Partition Store Topics](https://user-images.githubusercontent.com/86148510/224912501-5923b0e0-db96-40cf-85f3-8df395937ee4.png)
-
----
-<a href = "#K8S">Kubernetes Documentation</a>
----
 ```
 1. Overview
 2. Kubernetes Architecture
