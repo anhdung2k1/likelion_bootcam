@@ -83,8 +83,10 @@
 - <strong>Secret and configuration management</strong>K8s storage and manage sensitive information, such as password, OAuth token, and SSH keys. You can deploy and update secrets and application configuration without rebuilding your container images, and without exposing secrets in your stack configuration.
 2. Kubernetes Architecture
 ![1](https://user-images.githubusercontent.com/86148510/233285997-19cc7648-4050-41ae-913b-d6e65d4db65d.png)
-3. Working flow
+---
 ![2](https://user-images.githubusercontent.com/86148510/233289026-73d05e95-eff7-4fef-8dcc-588f29235a06.jpg)
+3. Working flow
+![K8s Service drawio (1)](https://github.com/anhdung2k1/likelion_bootcam/assets/86148510/f9d44474-a773-479b-b5d9-e920b14b5721)
 4. How to use
 - Create new namespace used for the project
 ```
