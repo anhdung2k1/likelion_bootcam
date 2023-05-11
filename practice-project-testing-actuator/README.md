@@ -31,7 +31,7 @@
 ---
 <a href = "#Software">Software Architecture Working Flow</a>
 ---
-![Overview Architect](https://user-images.githubusercontent.com/86148510/224882796-6b8ce178-8ab6-493c-9c48-9d208386cca7.jpeg)
+![MSA](https://github.com/anhdung2k1/likelion_bootcam/assets/86148510/b5d889a1-d7d3-46d5-a69f-021fb521d2dc)
 - The main purpose of making microservices is to follow rules Singleton which makes each service has an independent process and less dependent on others.
 - Cloud is also applied to develop <strong>distributed applications</strong> that make each module can be written with many types of language. For this Project, we are using Java (Spring Boot) to config all processes of validation and make configurations and C++ to perform Chat Applications with respective mean time delay.
 - Also, each module can communicate with the other by making API call.
